@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Mentoria</title>
+</head>
+<body>
+  <div class="main">
+    <h1>Mentoria</h1>
+    <p>Preencha o formulário abaixo para <br/> agendar a sua mentoria</p>
+    
+    <div class="fieldset-wrapper">
+      <fieldset>
+        <legend>Informações pessoais</legend>
+        <div class="form-wrapper">
+          <form action="">
+            <div class= "conjunto">
+              <div class="input-wrapper">
+                <label for="event-name">Nome</label>
+                <input type="text" id="event-name">
+              </div>
+  
+              <div class="input-wrapper">
+                <label for="event-subname" >Sobrenome</label>
+                <input type="text" id="event-subname">
+              </div>
+            </div>
+  
+            <div class="input-wrapper">
+              <label for="event-email">Email <span>(digite um email valdio)</span></label>
+              <input type="email" id="event-email">
+            </div>
+  
+            <div class="input-wrapper">
+              <label for="event-password">Senha <span>(mínimo de 6 caracteres)</span></label>
+              <input type="passoword" id="event-password">
+            </div>
+  
+          </form>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Informações do mentor</legend>
+        <div class="form-wrapper">
+          <form action="">
+            
+              <div class="input-wrapper">
+                <label for="event-name">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+                <input type="text" id="event-name">
+              </div>
+  
+          </form>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Seus horários disponíveis</legend>
+        <div class="form-wrapper">
+          <form action="">
+            <div class= "conjunto2">
+              <h2>Primeira mentoria</h2>
+              <div class="conj2">
+                <div class="input-wrapper date">
+                  <label for="event-date">Data <span>(DD/MM/AAAA)</span></label>
+                  <input type="date" id="event-date">
+                </div>
+                <div class="time">
+                  <div class="input-wrapper">
+                    <label for="event-time" >Das</label>
+                    <input type="time" id="event-time">
+                  </div>
+    
+                  <div class="input-wrapper">
+                    <label for="event-hour" >Ate</label>
+                    <input type="time" id="event-hour">
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Segunda mentoria</legend>
+        <div class="form-wrapper">
+          <form action="">
+            <div class= "conjunto2">
+              <h2>Primeira mentoria</h2>
+              <div class="conj2">
+                <div class="input-wrapper date">
+                  <label for="event-date">Data <span>(DD/MM/AAAA)</span></label>
+                  <input type="date" id="event-date">
+                </div>
+                <div class="time">
+                  <div class="input-wrapper">
+                    <label for="event-time" >Das</label>
+                    <input type="time" id="event-time">
+                  </div>
+    
+                  <div class="input-wrapper">
+                    <label for="event-hour" >Ate</label>
+                    <input type="time" id="event-hour">
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </fieldset>
+
+      
+    </div>
+    <div class="bottom">
+      <button>Salvar</button>
+    </div>
+  </div>
+</body>
+</html>
